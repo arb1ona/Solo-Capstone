@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>strivezone</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="address">
+                <button onclick="openMenu()">
+                    &#9776;
+                </button>
+                <a href="index.html">strivezone</a>
+            </div>
+            <div class="header-links">
+                <a href="favs.html">favs</a>
+                <a href="signin.html">Sign in</a>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <h3 style="color: #707880">SHOP BY CATEGORY</h3>
+            <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+            <ul>
+                <li>
+                    <a href="index.html">Tuxedos</a>
+                </li>
+
+                <li>
+                    <a href="index.html">Classic Shirts</a>
+                </li>
+
+                <li>
+                    <a href="index.html">Ties</a>
+                </li>
+                <li>
+                    <a href="index.html">Accessories</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="./images/d1.jpg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">Suit</a>
+                            </div>
+                            <div class="prodct-address">Armani</div>
+                            <div class="product-price">$ 5,795</div>
+                            <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="./images/d1.jpg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">Suit</a>
+                            </div>
+                            <div class="prodct-address">Armani</div>
+                            <div class="product-price">$ 5,795</div>
+                            <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="./images/d1.jpg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">Suit</a>
+                            </div>
+                            <div class="prodct-address">Armani</div>
+                            <div class="product-price">$ 5,795</div>
+                            <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="./images/d1.jpg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">Suit</a>
+                            </div>
+                            <div class="prodct-address">Armani</div>
+                            <div class="product-price">$ 5,795</div>
+                            <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="./images/d1.jpg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">Suit</a>
+                            </div>
+                            <div class="prodct-address">Armani</div>
+                            <div class="product-price">$ 5,795</div>
+                            <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="./images/d1.jpg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">Suit</a>
+                            </div>
+                            <div class="prodct-address">Armani</div>
+                            <div class="product-price">$ 5,795</div>
+                            <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">All rights reserved</footer>
+    </div>
+    <script>
+        function openMenu() {
+            document.querySelector(".sidebar").classList.add("open");
+        }
+        function closeMenu() {
+            document.querySelector(".sidebar").classList.remove("open");
+        }
+    </script>
+</body>
+
+</html>
